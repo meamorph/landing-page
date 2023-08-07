@@ -6,20 +6,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <p>Header Logo</p>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    </header>
-    <div class="header">
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button>Sign up</button>
-        <button>This is the placeholder for an image</button>
+    <div class="hero">
+        <div class="header">
+            <div class="header-top">
+                <p>Header Logo</p>
+                <ul>
+                    <li>header link one</li>
+                    <li>header link two</li>
+                    <li>header link three</li>
+                </ul>
+            </div>
+            <div class="header-bottom">
+                <div class="textblock">
+                    <h1>This website is awesome</h1>
+                    <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
+                    <button>Sign up</button>
+                </div>
+                <img src="./img/pexels-anni-roenkae-2693208.jpg" alt="abstract">
+            </div>
+        </div>
     </div>
+    
     <div class="random-information">
         <h2>Some random information.</h2>
         <div class="cards">
@@ -43,14 +50,21 @@
         
     </div>
     <div class="quote">
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling space, or maybe people will actually read it. Who knows ? All I know is that it looks nice.</p>
-        <p>-Thor, God of Thunder</p>
+        <p class="quotetext">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling space, or maybe people will actually read it. Who knows ? All I know is that it looks nice.</p>
+        <p class="author">-Thor, God of Thunder</p>
     </div>
     <div class="call-to-action">
-        <p>Call to action! It's time!</p>
-        <p>Sign up for our product by clicking that button right over there !</p>
-        <button>Sign up</button>
+        <div class="cta">
+            <div class="cta-textbox">
+                <p>Call to action! It's time!</p>
+                <p>Sign up for our product by clicking that button right over there !</p>
+            </div>
+            <button>Sign up</button>
+        </div>
+        
     </div>
-    <footer></footer>
+    <footer>
+        <p>Copyright © The Odin Project 2023</p>
+    </footer>
 </body>
 </html>

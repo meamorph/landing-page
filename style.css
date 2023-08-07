@@ -1,24 +1,50 @@
-* {
-    border: 1px solid red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-header, div.header {
+
+
+/* hero section */
+div.hero {
     background-color: #1F2937;
     color: white;
 }
 
-div.random-information {
-    background-color: white;
+div.header {
+    margin: auto;
+    width: 60%;
+}
+
+div.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.header-bottom {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.header-bottom img {
+    width: 50%;
+    height: 200px;
+}
+
+div.textblock {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 div.quote {
     background-color: #E5E7EB;
-}
-
-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 ul {
@@ -27,6 +53,21 @@ ul {
     padding: 0;
     display: flex;
     gap: 12px;
+}
+
+.textblock button {
+    border: none;
+    background-color: #3882F6;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    margin-bottom: 200px;
+}
+
+/* random information section */
+div.random-information {
+    background-color: white;
+    margin-bottom:200px;
 }
 
 h2 {
@@ -55,4 +96,64 @@ h2 {
     align-items: center;
     flex-wrap: wrap;
     max-width: 200px;
+}
+
+
+/* quote */
+
+div.quote {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quotetext {
+    font-size:36px;
+    font-weight:light;
+    font-style: italic;
+    color: #1F2937;
+    width: 60%;
+}
+
+.author {
+    width: 60%;
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 200px;
+}
+
+/* call to action */
+
+.call-to-action {
+    width: 66.6666%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    background-color: #3882F6;
+    border-radius:10px;
+    color: white;
+}
+
+.cta {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 50px;
 }
