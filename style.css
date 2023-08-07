@@ -1,85 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
 * {
     border: 1px solid red;
 }
 
-
-body {
-    font-family: 'Roboto', sans-serif;
-    width: 100vw;
-}
-
-div.header {
+header, div.header {
     background-color: #1F2937;
     color: white;
 }
 
-.header-top {
+div.random-information {
+    background-color: white;
+}
+
+div.quote {
+    background-color: #E5E7EB;
+}
+
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.header-links {
-    display: flex;
-    gap: 8px;
+ul {
     list-style: none;
-    padding: 8px;
-    align-items: center;
-}
-
-h1 {
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.header-image {
-    height: 200px;
-    width: 400px;
-}
-
-.header-container {
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.header-textbox {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-
-}
-
-.header-signup {
-
-}
-
-.random-info {
-    display: flex;
-    flex-direction: column;
+    gap: 12px;
 }
 
 h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
 }
 
-.cards-container {
+.random-information img {
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.cards {
     display: flex;
     justify-content: center;
+    gap: 100px;
 }
 
-.cards-container img {
-    width: 150px;
-    height: 150px;
-}
-
-
-
-footer {
-    background-color: #1F2937;
-    color: white;
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 200px;
 }
